@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'Event.dart';
-import 'State.dart';
+import 'Poll_Event.dart';
+import 'Poll_State.dart';
 
 class PollBloc extends Bloc<PollEvent, PollState> {
   PollBloc() : super(PollState.initial()) {

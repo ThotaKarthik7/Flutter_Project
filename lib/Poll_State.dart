@@ -6,9 +6,10 @@ class PollState {
   PollState.initial()
       : votes = {
     'Flutter': 0,
-    'React': 0,
-    'Vue': 0,
+    'Java': 0,
+    'Vue.js': 0,
     'Angular': 0,
+    'Swift': 0,
   };
 
   PollState copyWith({Map<String, int>? newVotes}) {

@@ -24,7 +24,7 @@ class _LikeScreenState extends State<LikeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Like Button Example")),
+      appBar: AppBar(title: Text("Like Button ")),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -32,7 +32,7 @@ class _LikeScreenState extends State<LikeScreen> {
             IconButton(
               icon: Icon(
                 isLiked ? Icons.favorite : Icons.favorite_border,
-                color: isLiked ? Colors.red : Colors.grey,
+                color: isLiked ? Colors.green : Colors.grey,
                 size: 48,
               ),
               onPressed: toggleLike,

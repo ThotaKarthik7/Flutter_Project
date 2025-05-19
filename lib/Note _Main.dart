@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'Note_Provider.dart';
-import 'Home_Screen.dart';
+import 'Note_Home_Screen.dart';
 
 void main() {
   runApp(const NotesApp());

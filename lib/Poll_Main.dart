@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'Bloc.dart';
-import 'Page.dart';
+import 'Poll_Bloc.dart';
+import 'Poll_Page.dart';
 
 void main() {
   runApp(const PollApp());

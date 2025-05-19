@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'Bloc.dart';
-import 'Event.dart';
-import 'State.dart';
+import 'Poll_Bloc.dart';
+import 'Poll_Event.dart';
+import 'Poll_State.dart';
 
 class PollPage extends StatelessWidget {
   const PollPage({super.key});
@@ -13,7 +13,7 @@ class PollPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Favorite Framework Poll"),
+        title: const Text(">>>>>>>>>>>Favorite Framework Poll<<<<<<<<<<<<"),
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),
